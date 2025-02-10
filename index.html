@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="digital banking,mobile money,send money">
+        <meta name="description" content="Provides mobile banking solutions">
+        <title>My Banking App</title>
+        <link rel="icon" href="C:\Users\User\OneDrive\Desktop\self\passport.Pic.jpeg" >
+        <link rel="stylesheet" href="stingo.css">
+        <script src="jabascript.js"></script>
+    </head>
+
+    <body>
+        <h1><b>My Banking app</b></h1>
+
+        <!-- Home page-->
+        <section id="home-page">
+        <h2>Home</h2> 
+        <p class="greeting-msg">Good Morning, Jereh!</p>
+        <button><a href='#account' target="_blank">Go to accounts page</a></button>
+        <br/>
+
+        <!-- Clients balance-->
+        <div class="clients-balance">
+            <p style="display:inline;">My balance</p> <button id="show-bal" >Show balance</button>
+        </div>
+
+        <h3 id="account">My Accounts</h3>
+        <div class="account-status">
+            <p>Jeremiah Wafukho Mbusya<br>
+            A/c No: 1200182149399<br>
+            A/c Balance: $700</p>.
+        </div>
+        
+        </section>
+
+        <!-- Transact page-->
+        <h2>Transact</h2>
+        <section id="transact-page">
+           <button class="send-money-btn" onclick="document.location='send_money.html'"">Send Money</button><br><br>
+            
+           <button class="withdraw-btn" onclick="document.location='withdraw_cash.html'">Withdraw Cash</button>
+              
+        </section>
+        
+
+        <section id="trans-hist">
+            <table>
+                <caption>Transaction history</caption>
+                <tr>
+                    <th>Date</th>
+                    <th>Reference no.</th>
+                    <th>Amount</th>
+                </tr>
+                <tr>
+                    <td>12/08/2024</td>
+                    <td>QWERTSYYFH</td>
+                    <td>1200.00</td>
+                </tr>
+            </table>
+             <br>
+        
+        </section>
+
+        <video width="490px" controls >
+            <source src="C:\Users\User\OneDrive\Desktop\mamangina\Jumeirah\Jumeirah.mp4" type="video/mp4">
+            Video type not supported!
+        </video>
+
+        <form action="/action_page.php">
+            <input type="checkbox" id="jereh" name="fav-friend" value="Jereh">
+            <label for="jereh">Jereh</label><br>
+            <input type="checkbox" id="cupcake" name="fav-friend" value="Cupcake">
+            <label for="cupcake">Cupcake</label>
+            <input type="submit" value="enter">
+        </form>
+
+    </body>
+</html>
