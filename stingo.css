@@ -1,16 +1,45 @@
-.account-status{
-    border-style:hover;
-    margin:10px;
-    padding:10px;
-    width:30%;
-    background-color:brown;
+body{
+    background-color: #001f3f;
 }
 
-.clients-balance{
-    border:solid black 2px;
-    margin:10px;
+
+/* for the login form */
+div.container{
+    padding:50px;
+    margin:300px;
+    border:solid black;
+    border-radius:10px;
+    text-align:center;
+    background-color: white;
+    width:300px;
+    height:350px;
+
+}
+input{
+    border:solid black 1px;
+    border-radius:5px;
     padding:5px;
-    width:30%;
-    //display:inline;
+    width: 100%;
 }
 
+
+
+button{
+    background-color: #001f3f;
+    border:none;
+    width:90%;
+    border-radius: 5px;
+    padding:5px;
+    color: white;
+    cursor:pointer;
+
+
+}
+
+button.toggle-btn{
+    background:none;
+    border:none;
+    color:#001f3f;
+    cursor:pointer;
+
+}
