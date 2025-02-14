@@ -6,13 +6,14 @@ body{
 /* for the login form */
 div.container{
     padding:50px;
-    margin:300px;
+    margin:auto;
     border:solid black;
     border-radius:10px;
     text-align:center;
     background-color: white;
     width:300px;
     height:350px;
+    overflow: auto;
 
 }
 input{
@@ -27,7 +28,7 @@ input{
 button{
     background-color: #001f3f;
     border:none;
-    width:90%;
+    width:100%;
     border-radius: 5px;
     padding:5px;
     color: white;
