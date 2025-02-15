@@ -17,7 +17,7 @@ div.container{
 
 }
 input{
-    border:solid black 1px;
+    border:solid #001f3f 1px;
     border-radius:5px;
     padding:5px;
     width: 100%;
@@ -43,4 +43,36 @@ button.toggle-btn{
     color:#001f3f;
     cursor:pointer;
 
+}
+
+/* CSS for home-page begins here */
+body#home-page{
+
+    background-color: grey;
+}
+
+.send-money-btn{
+    border:groove grey 1px;
+    border-radius: 3px;
+}
+#home-greeting-msg{
+    text-align: center;
+}
+.show-bal{
+    border:solid #001f3f 1px;
+    padding:5px;
+    border-radius: 5px;
+    background-color: white;
+
+}
+#account{
+    padding:5px;
+    border:solid #001f3f 1px;
+    border-radius:10px;
+    background-color: #001f3f;
+    color:white;
+    
+    width:300px;
+    height:200px;
+    overflow: auto;
 }
