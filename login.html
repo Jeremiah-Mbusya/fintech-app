@@ -1,16 +1,24 @@
 
-<!-- login -->
- <link rel="stylesheet" href="stingo.css">
-<div class="container">
-  <h2 id="formTitle">Login</h2>
-  <form method="post">
-    <input type="text" id="identifier" name="identifier" placeholder="Phone number or Email address" required><br><br>
-    <input type="password" id="password" name="password" placeholder="Password" required><br><br>
-    <button type="submit" onclick="console.log(`welcome ${identifier}`)">Login</button>
-  </form>
-  <button class="toggle-btn" onclick="document.location='register.html'">Don't have an account? Register</button>
-</div> 
-
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link rel="stylesheet" href="stingo.css">
+    <script src="jabascript.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2 id="formTitle">Login</h2>
+      <form method="post">
+        <input type="text" id="identifier" name="identifier" placeholder="Phone number or Email address" required><br><br>
+        <input type="password" id="password" name="password" placeholder="Password" required><br><br>
+        <button type="submit" onclick="loginUser()">Login</button>
+      </form>
+      <button class="toggle-btn" onclick="document.location='register.html'">Don't have an account? Register</button>
+    </div> 
+  </body>
+    
+    
+</html>
 
 
 
