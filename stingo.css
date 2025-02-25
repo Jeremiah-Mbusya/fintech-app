@@ -44,7 +44,10 @@ button.toggle-btn{
     cursor:pointer;
 
 }
-
+label{
+    text-align: left;
+    color:#001f3f;
+}
 /* CSS for home-page begins here */
 body#home-page{
 
@@ -76,3 +79,21 @@ body#home-page{
     height:200px;
     overflow: auto;
 }
+/* nav styles */
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 20px;
+}
+.profile{
+    background-color: grey;
+
+}
+.initials{
+    border-radius:50%;
+}
+
